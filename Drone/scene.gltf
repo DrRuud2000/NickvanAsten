@@ -1,0 +1,379 @@
+{
+ "accessors": [
+  {
+   "bufferView": 2,
+   "componentType": 5126,
+   "count": 65532,
+   "max": [
+    5.172404766082764,
+    0.6912579536437988,
+    2.99476957321167
+   ],
+   "min": [
+    -5.881345748901367,
+    -1.2757729291915894,
+    -9.712223052978516
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2,
+   "byteOffset": 786384,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 3,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC4"
+  },
+  {
+   "bufferView": 1,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 524256,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 1048512,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 1572768,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 2097024,
+   "componentType": 5126,
+   "count": 65532,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 0,
+   "componentType": 5125,
+   "count": 271479,
+   "type": "SCALAR"
+  },
+  {
+   "bufferView": 2,
+   "byteOffset": 1572768,
+   "componentType": 5126,
+   "count": 20989,
+   "max": [
+    5.881345748901367,
+    0.9807295799255371,
+    2.9662466049194336
+   ],
+   "min": [
+    -4.229777812957764,
+    -1.6551032066345215,
+    -9.88134479522705
+   ],
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2,
+   "byteOffset": 1824636,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 3,
+   "byteOffset": 1048512,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC4"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 2621280,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 2789192,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 2957104,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 3125016,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 1,
+   "byteOffset": 3292928,
+   "componentType": 5126,
+   "count": 20989,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 0,
+   "byteOffset": 1085916,
+   "componentType": 5125,
+   "count": 92289,
+   "type": "SCALAR"
+  }
+ ],
+ "asset": {
+  "generator": "fab-model-conversion",
+  "version": "2.0"
+ },
+ "bufferViews": [
+  {
+   "buffer": 0,
+   "byteLength": 1455072,
+   "target": 34963
+  },
+  {
+   "buffer": 0,
+   "byteLength": 3460840,
+   "byteOffset": 1455072,
+   "byteStride": 8,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 2076504,
+   "byteOffset": 4915912,
+   "byteStride": 12,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteLength": 1384336,
+   "byteOffset": 6992416,
+   "byteStride": 16,
+   "target": 34962
+  }
+ ],
+ "buffers": [
+  {
+   "byteLength": 8376752,
+   "uri": "scene.bin"
+  }
+ ],
+ "extensionsUsed": [
+  "KHR_materials_emissive_strength"
+ ],
+ "images": [
+  {
+   "uri": "textures/Sci-Fi_Surveillance_Drone_baseColor.jpg"
+  },
+  {
+   "uri": "textures/Sci-Fi_Surveillance_Drone_metallicRoughness.png"
+  },
+  {
+   "uri": "textures/Sci-Fi_Surveillance_Drone_emissive.png"
+  },
+  {
+   "uri": "textures/Sci-Fi_Surveillance_Drone_normal.png"
+  }
+ ],
+ "materials": [
+  {
+   "doubleSided": true,
+   "emissiveFactor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissiveTexture": {
+    "index": 2
+   },
+   "extensions": {
+    "KHR_materials_emissive_strength": {
+     "emissiveStrength": 10
+    }
+   },
+   "name": "Sci-Fi_Surveillance_Drone",
+   "normalTexture": {
+    "index": 3
+   },
+   "pbrMetallicRoughness": {
+    "baseColorTexture": {
+     "index": 0
+    },
+    "metallicRoughnessTexture": {
+     "index": 1
+    }
+   }
+  }
+ ],
+ "meshes": [
+  {
+   "name": "Object_0",
+   "primitives": [
+    {
+     "attributes": {
+      "NORMAL": 1,
+      "POSITION": 0,
+      "TANGENT": 2,
+      "TEXCOORD_0": 3,
+      "TEXCOORD_1": 4,
+      "TEXCOORD_2": 5,
+      "TEXCOORD_3": 6,
+      "TEXCOORD_4": 7
+     },
+     "indices": 8,
+     "material": 0,
+     "mode": 4
+    }
+   ]
+  },
+  {
+   "name": "Object_1",
+   "primitives": [
+    {
+     "attributes": {
+      "NORMAL": 10,
+      "POSITION": 9,
+      "TANGENT": 11,
+      "TEXCOORD_0": 12,
+      "TEXCOORD_1": 13,
+      "TEXCOORD_2": 14,
+      "TEXCOORD_3": 15,
+      "TEXCOORD_4": 16
+     },
+     "indices": 17,
+     "material": 0,
+     "mode": 4
+    }
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "children": [
+    1
+   ],
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.220446049250313e-16,
+    -1.0,
+    0.0,
+    0.0,
+    1.0,
+    2.220446049250313e-16,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "name": "Sketchfab_model"
+  },
+  {
+   "children": [
+    2
+   ],
+   "name": "root"
+  },
+  {
+   "children": [
+    3
+   ],
+   "matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.220446049250313e-16,
+    1.0,
+    0.0,
+    0.0,
+    -1.0,
+    2.220446049250313e-16,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "name": "GLTF_SceneRootNode"
+  },
+  {
+   "children": [
+    4,
+    5
+   ],
+   "name": "Sci-Fi Surveillance Drone_0"
+  },
+  {
+   "mesh": 0,
+   "name": "Object_4"
+  },
+  {
+   "mesh": 1,
+   "name": "Object_5"
+  }
+ ],
+ "samplers": [
+  {
+   "magFilter": 9729,
+   "minFilter": 9987,
+   "wrapS": 10497,
+   "wrapT": 10497
+  }
+ ],
+ "scene": 0,
+ "scenes": [
+  {
+   "name": "Sketchfab_Scene",
+   "nodes": [
+    0
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "sampler": 0,
+   "source": 0
+  },
+  {
+   "sampler": 0,
+   "source": 1
+  },
+  {
+   "sampler": 0,
+   "source": 2
+  },
+  {
+   "sampler": 0,
+   "source": 3
+  }
+ ]
+}

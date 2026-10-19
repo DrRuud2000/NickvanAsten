@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nick | Game Developer &amp; Creative Technologist</title>
+  <meta name="description" content="Nick van Asten's portfolio: game development and creative technology at Fontys ICT.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="icon" type="image/png" href="Images/WebsiteLogo.png">
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body class="portfolio-page">
+  <nav>
+    <a class="brand" href="#home" aria-label="Nick van Asten - home">
+      <img class="brand-logo" src="Images/WebsiteLogo.png" alt="">
+      <span class="brand-name">NICK VAN ASTEN<b>.</b></span>
+    </a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects" data-insert>Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="wrap">
+      <div class="eyebrow">Portfolio &middot; Fontys ICT</div>
+      <h1>Nick van Asten</h1>
+      <div class="role">Game Developer &amp; Creative Technologist</div>
+      <blockquote class="hero-quote">
+        &ldquo;Making stories worth getting lost in.&rdquo;
+      </blockquote>
+      <p class="sub">
+        I create atmospheric games and interactive experiences, combining thoughtful design
+        with hands-on development. I am looking for an internship where I can contribute,
+        learn and build memorable player experiences.
+      </p>
+      <div class="btns">
+        <a class="btn primary" href="#projects" data-insert>Explore my projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap center">
+      <div class="eyebrow">Selected work</div>
+      <h2>Explore my projects</h2>
+      <p class="projects-intro">Insert the portfolio disc to browse projects, roles and skills.</p>
+      <div class="tv-stage">
+        <div class="tv-stage-label">
+          <span>Interactive project library</span>
+          <span>Portfolio system &middot; 2026</span>
+        </div>
+        <div class="rig" id="rig">
+          <div class="monitor">
+            <div class="screen" id="screen" data-state="off">
+              <div class="screen-lamp" aria-hidden="true"></div>
+              <div class="pane s-off">
+                <span>No disc inserted<br>Insert the portfolio disc to start</span>
+              </div>
+              <div class="pane s-boot" id="boot"></div>
+              <div class="pane s-menu">
+                <div class="mbar">
+                  <span>&#9654; Select game</span>
+                  <span id="counter">01 / 05</span>
+                </div>
+                <div class="mtabs" id="tabs" role="group" aria-label="Choose a game"></div>
+                <div class="mmain">
+                  <div class="mframe" id="frame"></div>
+                  <div class="mdet">
+                    <h3 id="ptitle"></h3>
+                    <p id="pdesc"></p>
+                    <div class="tags" id="ptags"></div>
+                    <a class="btn primary" id="cta" href="#">View project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chin">
+              <div class="slot"></div>
+              <div class="led"></div>
+            </div>
+          </div>
+          <div class="stand"></div>
+          <button class="discwrap" id="disc" type="button" aria-label="Insert the portfolio disc">
+            <span class="disc"></span>
+            <span class="hint">Click to insert</span>
+          </button>
+          <button class="eject" id="eject" type="button">&#9167; Eject disc</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">About me</div>
+      <h2>Personal Info</h2>
+      <div class="about">
+        <img class="avatar" src="Images/Nick.png" alt="Portrait of Nick van Asten">
+        <div>
+          <p>
+            Hi, I&apos;m Nick, an ICT student at Fontys and a game developer with a passion for
+            dark, atmospheric worlds. I enjoy building immersive experiences and combining
+            creative ideas with technical problem-solving.
+          </p>
+          <div class="skills">
+            <span>Unity</span>
+            <span>C#</span>
+            <span>Unreal Engine</span>
+            <span>Game Design</span>
+            <span>Git</span>
+            <span>Blender</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="wrap center">
+      <h2>My CV</h2>
+      <p>An overview of my education, experience, and skills.</p>
+      <a class="btn primary" href="cv.pdf" download>Download CV (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap center">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Contact</h2>
+      <div class="cards">
+        <a class="card" href="mailto:nick@vanasten.eu">
+          <small>Email</small>
+          nick@vanasten.eu
+        </a>
+        <a
+          class="card"
+          href="https://www.linkedin.com/in/nick-van-asten-056778326"
+          target="_blank"
+          rel="noopener"
+        >
+          <small>LinkedIn</small>
+          Nick van Asten
+        </a>
+        <a class="card" href="https://github.com/DrRuud2000" target="_blank" rel="noopener">
+          <small>GitHub</small>
+          DrRuud2000
+        </a>
+        <a class="card" href="https://drruud.itch.io/" target="_blank" rel="noopener">
+          <small>Itch</small>
+          drruud
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Nick van Asten &middot; Game Developer</footer>
+
+  <div class="goat-fx" id="goatFx" aria-hidden="true">
+    <div class="eaten">
+      <div>
+        Goat? A goat has eaten your page.
+        <small>Entering Tower Clash...</small>
+      </div>
+    </div>
+    <div class="goat"><span>&#128016;</span></div>
+  </div>
+
+  <div class="warp-fx" id="warpFx" aria-hidden="true"><span id="warpTxt"></span></div>
+
+  <script>
+    const projects = [
+      {
+        name: "Sublevel",
+        media: "Gif/BobLevel.gif",
+        link: "sublevel.html",
+        color: "#4a0a10",
+        theme: { name: "sublevel", accent: "#d4222d", glow: "rgba(163, 18, 27, .3)" },
+        tags: ["Unreal Engine", "Horror"],
+        description: "A bunker horror experience focused on player movement, interactions and sound-driven scares."
+      },
+      {
+        name: "Project Splitstar",
+        media: "Gif/Splitstar.gif",
+        link: "ProjectSplitstar.html",
+        color: "#1a1a3a",
+        theme: { name: "splitstar", accent: "#4fe3ff", glow: "rgba(79, 227, 255, .24)" },
+        tags: ["Unreal Engine", "2.5 D Side-Scroller"],
+        description: "A fast-paced 2.5D shooter. I built player movement, aiming, shooting, power-ups and segmented health."
+      },
+      {
+        name: "YouAreHaunted",
+        media: "Gif/YAHSCARE.gif",
+        link: "YouAreHaunted.html",
+        color: "#0f2a22",
+        theme: { name: "haunted", accent: "#6fe0d0", glow: "rgba(111, 224, 208, .24)" },
+        tags: ["Unreal Engine", "VR", "Horror"],
+        description: "A VR castle horror experience shaped by player flow, level design and sound."
+      },
+      {
+        name: "TowerClash",
+        media: "Images/PosterTowerClash.png",
+        link: "TowerClash.html",
+        color: "#3a1a0a",
+        theme: { name: "towerclash", accent: "#e0b95a", glow: "rgba(224, 185, 90, .24)" },
+        tags: ["BoardGame", "Stack", "Attack"],
+        description: "A medieval tile-building board game developed through rules design, card systems and playtesting."
+      },
+      {
+        name: "Pack",
+        media: "Gif/Packer.gif",
+        link: "Pack.html",
+        color: "#2a0a2e",
+        theme: { name: "pack", accent: "#c77dff", glow: "rgba(199, 125, 255, .24)" },
+        tags: ["Unreal Engine", "Puzzle/ Escape"],
+        description: "A one-week Unreal Engine escape challenge about escalating rooms and a host with a personality."
+      }
+    ];
+
+    const $ = (id) => document.getElementById(id);
+    const tabs = $("tabs");
+    const frame = $("frame");
+    const rig = $("rig");
+    const tvStage = document.querySelector(".tv-stage");
+    const screen = $("screen");
+    let cur = 0;
+    let timers = [];
+
+    function applyProjectTheme() {
+      const theme = projects[cur].theme;
+      tvStage.style.setProperty("--tv-accent", theme.accent);
+      tvStage.style.setProperty("--tv-glow", theme.glow);
+      tvStage.dataset.theme = theme.name;
+    }
+
+    function kies(i) {
+      cur = i;
+      const project = projects[i];
+      if (rig.classList.contains("inserted")) applyProjectTheme();
+
+      [...tabs.children].forEach((button, index) => {
+        button.classList.toggle("active", index === i);
+        button.setAttribute("aria-pressed", String(index === i));
+      });
+
+      let element;
+      if (project.media) {
+        const path = new URL(project.media, document.baseURI).pathname;
+        const isVideo = /\.(mp4|webm)$/i.test(path);
+        element = document.createElement(isVideo ? "video" : "img");
+        element.src = project.media;
+        element.alt = project.name;
+
+        if (isVideo) {
+          element.autoplay = true;
+          element.loop = true;
+          element.muted = true;
+          element.playsInline = true;
+        }
+      } else {
+        element = document.createElement("div");
+        element.className = "ph";
+        element.textContent = project.name;
+        element.style.setProperty("--c1", project.color);
+      }
+
+      element.classList.add("fade");
+      frame.replaceChildren(element);
+      $("ptitle").textContent = project.name;
+      $("pdesc").textContent = project.description;
+      $("ptags").replaceChildren(
+        ...project.tags.map((tag) =>
+          Object.assign(document.createElement("span"), { textContent: tag })
+        )
+      );
+      $("cta").href = project.link;
+      $("cta").textContent = "\u25B6 View " + project.name;
+      $("counter").textContent =
+        String(i + 1).padStart(2, "0") + " / " + String(projects.length).padStart(2, "0");
+    }
+
+    projects.forEach((project, index) => {
+      const button = document.createElement("button");
+      button.className = "mtab";
+      button.type = "button";
+      button.textContent = project.name;
+      button.onclick = () => kies(index);
+      tabs.appendChild(button);
+    });
+
+    kies(0);
+
+    function insert() {
+      if (rig.classList.contains("inserted")) return;
+
+      rig.classList.add("inserted", "on");
+      applyProjectTheme();
+      timers.push(
+        setTimeout(() => {
+          const lines = ["NVA-OS 1.0", "Reading disc... OK", "Loading portfolio...", "Ready."];
+          $("boot").replaceChildren(
+            ...lines.map((text, index) => {
+              const span = document.createElement("span");
+              span.textContent = "> " + text;
+              span.style.animationDelay = index * 0.3 + "s";
+              return span;
+            })
+          );
+          screen.dataset.state = "boot";
+        }, 900)
+      );
+      timers.push(
+        setTimeout(() => {
+          screen.dataset.state = "menu";
+        }, 2700)
+      );
+    }
+
+    function eject() {
+      timers.forEach(clearTimeout);
+      timers = [];
+      rig.classList.remove("inserted", "on");
+      tvStage.style.removeProperty("--tv-accent");
+      tvStage.style.removeProperty("--tv-glow");
+      delete tvStage.dataset.theme;
+      screen.dataset.state = "off";
+    }
+
+    $("disc").onclick = insert;
+    $("eject").onclick = eject;
+    document.querySelectorAll("[data-insert]").forEach((link) => {
+      link.addEventListener("click", () => setTimeout(insert, 600));
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (screen.dataset.state !== "menu") return;
+      if (event.key === "ArrowRight") kies((cur + 1) % projects.length);
+      if (event.key === "ArrowLeft") kies((cur - 1 + projects.length) % projects.length);
+    });
+  </script>
+
+  <script>
+    (function () {
+      const fx = document.getElementById("warpFx");
+      const txt = document.getElementById("warpTxt");
+      const cta = document.getElementById("cta");
+      let going = false;
+
+      cta.addEventListener("click", function (e) {
+        const href = cta.getAttribute("href");
+        if (href !== "Pack.html") return;
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+        try { sessionStorage.removeItem("packIntroSeen"); } catch (err) {}
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        e.preventDefault();
+        if (going) return;
+        going = true;
+
+        document.body.classList.add("warping");
+        fx.classList.add("on");
+        setTimeout(function () { txt.textContent = "> signal intercepted..."; }, 1000);
+        setTimeout(function () { txt.textContent = "> you are not alone_"; }, 1700);
+        setTimeout(function () { location.href = href; }, 2500);
+      });
+
+      window.addEventListener("pageshow", function (e) {
+        if (!e.persisted) return;
+        going = false;
+        txt.textContent = "";
+        fx.classList.remove("on");
+        document.body.classList.remove("warping");
+      });
+
+      try {
+        if (sessionStorage.getItem("fromPack")) {
+          sessionStorage.removeItem("fromPack");
+          if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            document.body.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 900, easing: "ease-out" });
+          }
+        }
+      } catch (err) {}
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const fx = document.getElementById("goatFx");
+      const cta = document.getElementById("cta");
+      let going = false;
+
+      cta.addEventListener("click", function (e) {
+        const href = cta.getAttribute("href");
+        if (href !== "TowerClash.html") return;
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        e.preventDefault();
+        if (going) return;
+        going = true;
+        fx.classList.add("on");
+        setTimeout(function () { location.href = href; }, 4500);
+      });
+
+      window.addEventListener("pageshow", function (e) {
+        if (!e.persisted) return;
+        going = false;
+        fx.classList.remove("on");
+      });
+    })();
+  </script>
+</body>
+</html>
